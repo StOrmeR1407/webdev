@@ -1,0 +1,3 @@
+XIn chàO cáC bẠN nHỏ thâN YÊu
+Thread là gì?
+Theo wikipedia, một thread là một chuỗi các lệnh được lập trình có thể quản lý độc lập bởi bộ lập lịch. 

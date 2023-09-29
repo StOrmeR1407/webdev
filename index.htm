@@ -1,0 +1,58 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>ThaiHocCoder</title>
+		<script src="jquery.min.js"></script>
+		<script src="content.js"></script>		
+	</head>
+	<body>
+
+		<label>Tên: </label> <input type='text' id='ten'> 
+		<br>
+		
+		<label>Email:</label> <input type='text' id='email'> 
+		<br>
+		
+		<label>Web:</label> <input type='text' id='web'> 
+		<br>
+		
+		<label>Gender:</label> 
+		Nam <input type='radio' name='radioGroup' value="nam"> 
+		Nữ <input type='radio' name='radioGroup' value="nu"> 
+		Khác <input type='radio' name='radioGroup' value="khac"> 
+		<br>
+		
+		<select name="time" id="time">
+			<option value="acy">Automatic Copyright Year</option>
+			<option value="gat">Get a Time</option>
+			<option value="gytz">Get Your Time Zone</option>
+		</select>
+		<br>
+		
+		<label>Check present:</label> <input type='date' id='calendar'> 
+		<br>
+		
+		<label>Lấy thông tin từ Story</label> <input type='text' id='story'> 
+		<br>
+		
+		<form action="handle-file.php" method="post" enctype="multipart/form-data">
+		    Select image to upload:
+		    <input type="file" name="fileToUpload" id="fileToUpload">
+		    <input type="submit" value="Upload Image" name="submit">
+	    </form>
+		
+		<input type=button id='execute' value="Click me">		
+		
+		<input type=button id='set_cookies' value="Set and Get Cookies ">
+		<label>Tên cookies</label><input type='text' id='name_cookies'> 
+		<br>
+		
+		<input type=button id='set_session' value="Set and Check Session">
+		<div id='result'>Kết quả là: </div> <br>
+		
+		
+		
+				
+	</body>
+</html>
